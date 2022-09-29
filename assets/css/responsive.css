@@ -1,0 +1,57 @@
+/* Mobile */
+@media (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+
+    }
+
+    .content-body {
+        margin: 0;
+    }
+
+    form {
+        margin-top: 100px;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .menu {
+        width: 100px;
+
+    }
+
+    .avt {
+        display: none;
+    }
+
+    .nav {
+        padding-top: 300px;
+    }
+
+    .nav span {
+        display: none;
+    }
+
+    .menu-btn button {
+        display: block;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .content-body {
+        margin-left: 100px;
+    }
+
+    form {
+        margin-top: 100px;
+    }
+}
